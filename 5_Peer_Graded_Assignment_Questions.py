@@ -183,7 +183,7 @@ def get_graph(chart, year, children1, children2, c3, c4, c5):
             
             # TASK6: Number of flights flying to each state from each reporting airline
             # Enter your code below. Make sure you have correct formatting.
-            tree_fig=px.treemap(tree_data, path=['DestState', 'Reportiing_Airline'],
+            tree_fig=px.treemap(tree_data, path=['DestState', 'Reporting_Airline'],
                                 values='Flights',
                                 color='Flights',
                                 color_continuous_scale='RdBu',
